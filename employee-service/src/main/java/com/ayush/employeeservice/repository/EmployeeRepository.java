@@ -1,7 +1,8 @@
 package com.dailycodebuffer.employeeservice.repository;
 
-import com.dailycodebuffer.employeeservice.model.Employee;
 import org.springframework.stereotype.Repository;
+
+import com.ayush.employeeservice.model.Employee;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,12 @@
 package com.dailycodebuffer.employeeservice.controller;
 
-import com.dailycodebuffer.employeeservice.model.Employee;
-import com.dailycodebuffer.employeeservice.repository.EmployeeRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import com.ayush.employeeservice.model.Employee;
+import com.ayush.employeeservice.repository.EmployeeRepository;
 
 import java.util.List;
 
